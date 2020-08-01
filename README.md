@@ -1,3 +1,5 @@
 ## My Portfolio
 
-![](https://media.giphy.com/media/B0vFTrb0ZGDf2/giphy.gif)
+**Work in progress**
+
+![](https://media.giphy.com/media/ZG719ozZxGuThHBckn/giphy.gif)
