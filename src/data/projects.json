@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Landing page",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Landing-page",
+    "webUrl": "https://sonia-sv.github.io/Landing-page",
+    "description": "Individual project"
+  },
+  {
+    "id": 2,
+    "name": "Anonimous Proxy",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Anonymous-proxy",
+    "webUrl": "https://sonia-sv.github.io/Anonymous-proxy",
+    "description": "Individual project"
+  },
+  {
+    "id": 3,
+    "name": "Power FrontEnd",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS"],
+    "grupal": true,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Power-frontend",
+    "webUrl": "https://sonia-sv.github.io/Power-frontend",
+    "description": "Grupal project"
+  },
+  {
+    "id": 4,
+    "name": "Guess the number",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Guess-the-number",
+    "webUrl": "https://sonia-sv.github.io/Guess-the-number",
+    "description": "Individual project"
+  },
+  {
+    "id": 5,
+    "name": "Abed's favorite shows",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Abeds-favorite-shows",
+    "webUrl": "https://sonia-sv.github.io/Abeds-favorite-shows",
+    "description": "Individual project"
+  },
+  {
+    "id": 6,
+    "name": "Botanical profile Cards",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "grupal": true,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Botanical-profile-cards",
+    "webUrl": "https://sonia-sv.github.io/Botanical-profile-cards",
+    "description": "Grupal project"
+  },
+  {
+    "id": 7,
+    "name": "Pokemon List",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": "https://github.com/Sonia-SV/Pokemon-list",
+    "webUrl": "https://sonia-sv.github.io/Pokemon-list",
+    "description": "Individual project"
+  },
+  {
+    "id": 8,
+    "name": "Rick & Morty",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "grupal": false,
+    "show": true,
+    "repoUrl": null,
+    "webUrl": null,
+    "description": "Individual project"
+  },
+  {
+    "id": 9,
+    "name": "Kardma Cards",
+    "type": "practice",
+    "Languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "grupal": true,
+    "show": true,
+    "repoUrl": null,
+    "webUrl": null,
+    "description": "Grupal project"
+  }
+]
