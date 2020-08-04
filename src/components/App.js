@@ -14,6 +14,9 @@ class App extends React.Component {
       <div>
         <h2>Work in progress...</h2>
         <img src="https://media.giphy.com/media/ZG719ozZxGuThHBckn/giphy.gif" alt="/" />
+        <p>
+          Meanwhile, you can check out my work on <a href="https://github.com/Sonia-SV">GitHub</a>
+        </p>
         {/* <header>
           <nav>
             <ul>
