@@ -1,0 +1,34 @@
+body {
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  background: radial-gradient(circle at 35% 20vh, rgb(78, 78, 78) 0%, rgb(48, 48, 48) 35%, rgba(30, 30, 30, 1) 55%, rgba(0, 0, 0, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(228, 228, 228);
+  font-size: 40px;
+  h1 {
+    // border: 1px solid red;
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 260px;
+    text-shadow: 3px 4px 5px rgba(209, 209, 209, 0.33);
+
+    span {
+      text-align: right;
+      // border: 1px solid red;
+      display: block;
+    }
+    .sanz {
+      text-align: left;
+    }
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: right;
+    padding-top: 30px;
+  }
+}
