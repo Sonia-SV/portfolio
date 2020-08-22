@@ -6,6 +6,7 @@ import Landing from './Landing';
 import About from './About';
 import Portfolio from './Portfolio';
 import Curriculum from './Curriculum';
+import ContactIcons from './ContactIcons';
 import '../stylesheets/App.scss';
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
             <Route path="/curriculum" component={Curriculum} />
           </Switch>
         </main>
+        <ContactIcons />
       </div>
     );
   }

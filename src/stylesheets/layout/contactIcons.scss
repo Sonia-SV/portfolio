@@ -1,0 +1,23 @@
+@import '../core/reset.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
+.contactIcons {
+  //border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $medium-light-color;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+  &__li {
+    @include link;
+    margin-top: 10px;
+
+    &__a {
+      font-size: 15px;
+      padding: 3px;
+    }
+  }
+}
