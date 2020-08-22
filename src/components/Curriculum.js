@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Curriculum extends React.Component {
-  render() {
-    return <div>Curriculum</div>;
-  }
-}
+const Curriculum = () => {
+  return <div>Aquí va el Curriculum</div>;
+};
 
 export default Curriculum;

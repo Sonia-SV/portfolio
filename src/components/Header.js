@@ -1,31 +1,40 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../stylesheets/Header.scss';
+import { Link, Route } from 'react-router-dom';
+import '../stylesheets/layout/header.scss';
 
-class Header extends React.Component {
-  render() {
+const Header = () => {
+  const renderActualRoute = (route, text) => {
     return (
-      <div></div>
-      // <header>
-      //   <nav>
-      //     <ul>
-      //       <li>
-      //         <Link to="/">Home</Link>
-      //       </li>
-      //       <li>
-      //         <Link to="/about">Sobre mí</Link>
-      //       </li>
-      //       <li>
-      //         <Link to="/portfolio">Portfolio</Link>
-      //       </li>
-      //       <li>
-      //         <Link to="/curriculum">Currículum</Link>
-      //       </li>
-      //     </ul>
-      //   </nav>
-      // </header>
+      <Route
+        path={route}
+        children={({ match }) => {
+          const activeClass = !!match && match.isExact ? 'header__nav__ul__li__active' : '';
+
+          return (
+            <li className="header__nav__ul__li">
+              <Link to={route} className={activeClass}>
+                {text}
+              </Link>
+            </li>
+          );
+        }}
+      />
     );
-  }
-}
+  };
+  return (
+    <header className="header">
+      <h2>
+        <Link to={'/'}> SSV</Link>
+      </h2>
+      <nav className="header__nav">
+        <ul className="header__nav__ul">
+          {renderActualRoute('/about', 'About')}
+          {renderActualRoute('/portfolio', 'Portfolio')}
+          {renderActualRoute('/curriculum', 'Curriculum')}
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;

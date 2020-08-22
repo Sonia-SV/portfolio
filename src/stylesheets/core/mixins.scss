@@ -1,0 +1,16 @@
+// MEDIA QUERIES
+
+@mixin tablet {
+  @media all and (min-width: $tablet) {
+    @content;
+  }
+}
+
+// HOVER AND ACTIVE LINKS
+
+@mixin link {
+  &:active,
+  &:hover {
+    color: $main-color;
+  }
+}

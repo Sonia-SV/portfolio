@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Portfolio extends React.Component {
-  render() {
-    return <div>Portfolio</div>;
-  }
-}
+const Portfolio = () => {
+  return <div>Aquí va el Portfolio</div>;
+};
 
 export default Portfolio;
