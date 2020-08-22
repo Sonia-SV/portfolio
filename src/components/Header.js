@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import '../stylesheets/layout/header.scss';
 
-const Header = () => {
+const Header = (props) => {
   const renderActualRoute = (route, text) => {
     return (
       <Route
@@ -23,14 +23,14 @@ const Header = () => {
   };
   return (
     <header className="header">
-      <h2>
+      <h1>
         <Link to={'/'}> SSV</Link>
-      </h2>
+      </h1>
       <nav className="header__nav">
         <ul className="header__nav__ul">
-          {renderActualRoute('/about', 'About')}
+          {renderActualRoute('/about', props.languajeSpanish ? 'Sobre mí' : 'About')}
           {renderActualRoute('/portfolio', 'Portfolio')}
-          {renderActualRoute('/curriculum', 'Curriculum')}
+          {renderActualRoute('/contact', props.languajeSpanish ? 'Contacto' : 'Contact')}
         </ul>
       </nav>
     </header>

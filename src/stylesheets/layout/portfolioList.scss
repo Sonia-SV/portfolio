@@ -1,0 +1,8 @@
+@import '../core/reset.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}

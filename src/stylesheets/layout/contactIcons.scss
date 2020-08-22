@@ -2,19 +2,22 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 .contactIcons {
-  //border: solid 1px red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   color: $medium-light-color;
   position: fixed;
-  right: 0;
+  left: 0;
   bottom: 0;
-  margin: 15px;
+  margin: 0 0 15px 15px;
+  border-left: $main-color-low solid 0.5px;
   &__li {
     @include link;
-    margin-top: 10px;
-
+    padding-left: 8px;
+    &:nth-child(2) {
+      margin: 10px 0;
+    }
     &__a {
       font-size: 15px;
       padding: 3px;
