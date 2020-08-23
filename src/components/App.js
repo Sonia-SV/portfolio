@@ -10,7 +10,7 @@ import ContactIcons from './ContactIcons';
 import '../stylesheets/App.scss';
 
 const App = () => {
-  const [languajeSpanish, setLanguajeSpanish] = useState('');
+  const [languajeSpanish, setLanguajeSpanish] = useState('true');
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     setProjects(projectsList);
