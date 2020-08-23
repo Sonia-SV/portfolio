@@ -1,0 +1,62 @@
+@import '../core/reset.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  color: $light-color;
+  h1 {
+    font-size: 25px;
+    font-weight: 200;
+    @include link;
+  }
+  &__nav {
+    display: flex;
+    &__menu {
+      &__li {
+        color: $medium-light-color;
+        display: inline;
+        font-size: 13px;
+        &:not(:last-child):after {
+          padding: 10px;
+          content: '|';
+          color: $main-color-low;
+        }
+        a {
+          @include link;
+        }
+        &__active {
+          color: $light-color;
+        }
+      }
+    }
+
+    &__lang {
+      padding-left: 30px;
+      &__item {
+        display: none;
+      }
+
+      &__item + label {
+        display: inline-block;
+        cursor: pointer;
+        color: $medium-light-color;
+        font-size: 13px;
+        &:not(:last-child):after {
+          padding: 4px;
+          font-size: 8px;
+          content: '|';
+          color: $light-color;
+        }
+      }
+
+      &__item:checked + label {
+        color: $main-color;
+      }
+    }
+  }
+}

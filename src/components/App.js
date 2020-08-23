@@ -1,43 +1,56 @@
-import React from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
-// import projectsList from '../data/projects.json';
+import React, { useEffect, useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import projectsList from '../data/projects.json';
 import Header from './Header';
+import Landing from './Landing';
 import About from './About';
-import Portfolio from './Portfolio';
-import Curriculum from './Curriculum';
-import '../stylesheets/reset.scss';
+import PortfolioList from './PortfolioList';
+import Contact from './Contact';
+import ContactIcons from './ContactIcons';
 import '../stylesheets/App.scss';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>Work in progress...</h2>
-        <img src="https://media.giphy.com/media/ZG719ozZxGuThHBckn/giphy.gif" alt="/" />
-        <p>
-          Meanwhile, you can check out my work on <a href="https://github.com/Sonia-SV">GitHub</a>
-        </p>
-        {/* <header>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>*/}
-        <main>
-          {/* <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route path="/about" component={About} />
-          </Switch> */}
-        </main>
-      </div>
-    );
-  }
-}
+const App = () => {
+  const [languajeSpanish, setLanguajeSpanish] = useState('');
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    setProjects(projectsList);
+  });
+
+  useEffect(() => {
+    const data = JSON.parse(localStorage.getItem('languaje'));
+    if (data) {
+      setLanguajeSpanish(data);
+    }
+  }, []);
+  useEffect(() => {
+    localStorage.setItem('languaje', JSON.stringify(languajeSpanish));
+  });
+
+  const handleSetLanguaje = (lang) => {
+    setLanguajeSpanish(lang === 'en' ? false : true);
+  };
+  return (
+    <React.Fragment>
+      <Header languajeSpanish={languajeSpanish} handleSetLanguaje={handleSetLanguaje} />
+      <main className="main">
+        <Switch>
+          <Route exact path="/">
+            <Landing languajeSpanish={languajeSpanish} />
+          </Route>
+          <Route path="/about">
+            <About languajeSpanish={languajeSpanish} />
+          </Route>
+          <Route path="/portfolio">
+            <PortfolioList projects={projects} languajeSpanish={languajeSpanish} />
+          </Route>
+          <Route path="/contact">
+            <Contact languajeSpanish={languajeSpanish} />
+          </Route>
+        </Switch>
+      </main>
+      <ContactIcons />
+    </React.Fragment>
+  );
+};
 
 export default App;
