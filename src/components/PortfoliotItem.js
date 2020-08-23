@@ -5,8 +5,9 @@ const ProjectItem = (props) => {
   const { id, name, type, languajes, grupal, repoUrl, webUrl, description, img } = props;
   return (
     <div className="projects__item">
-      {/* <h4>{name}</h4> */}
-      <img src={img} alt={name} />
+      <a href={repoUrl} title={name} target="_blank" rel="noopener noreferrer">
+        <img className="projects__item__img" src={img} alt={name} />
+      </a>
     </div>
   );
 };

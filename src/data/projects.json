@@ -5,9 +5,10 @@
     "type": "practice",
     "languajes": ["HTML", "CSS", "SASS"],
     "grupal": false,
-    "visible": true,
+    "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Landing-page",
     "webUrl": "https://sonia-sv.github.io/Landing-page",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Landing-page/master/src/images/landing_profile.png",
     "description": "Individual project"
   },
   {
@@ -16,9 +17,10 @@
     "type": "practice",
     "languajes": ["HTML", "CSS", "SASS"],
     "grupal": false,
-    "visible": true,
+    "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Anonymous-proxy",
     "webUrl": "https://sonia-sv.github.io/Anonymous-proxy",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Anonymous-proxy/master/src/images/anonymous_profile.png",
     "description": "Individual project"
   },
   {
@@ -30,6 +32,7 @@
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Power-frontend",
     "webUrl": "https://sonia-sv.github.io/Power-frontend",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Power-frontend/master/src/images/powerfrontend_profile.png",
     "description": "Grupal project"
   },
   {
@@ -41,6 +44,7 @@
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Guess-the-number",
     "webUrl": "https://sonia-sv.github.io/Guess-the-number",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Guess-the-number/master/img/number_profile.png",
     "description": "Individual project"
   },
   {
@@ -52,6 +56,7 @@
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Abeds-favorite-shows",
     "webUrl": "https://sonia-sv.github.io/Abeds-favorite-shows",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Abeds-favorite-shows/master/src/images/Abeds_profile.png",
     "description": "Individual project"
   },
   {
@@ -63,6 +68,7 @@
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Botanical-profile-cards",
     "webUrl": "https://sonia-sv.github.io/Botanical-profile-cards",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Botanical-profile-cards/master/src/images/Botanical_profile.png",
     "description": "Grupal project"
   },
   {
@@ -71,9 +77,10 @@
     "type": "practice",
     "languajes": ["HTML", "CSS", "SASS", "React.JS"],
     "grupal": false,
-    "visible": true,
+    "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Pokemon-list",
     "webUrl": "https://sonia-sv.github.io/Pokemon-list",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Pokemon-list/master/public/pokemon_img.png",
     "description": "Individual project"
   },
   {
@@ -85,6 +92,7 @@
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Rick-Morty",
     "webUrl": "https://sonia-sv.github.io/Rick-Morty",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Rick-Morty/master/public/rickmorty_profile.png",
     "description": "Individual project"
   },
   {
@@ -95,7 +103,8 @@
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Kardma",
-    "webUrl": "https://sonia-sv.github.io/Kardma/#/",
+    "webUrl": "https://sonia-sv.github.io/Kardma",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Kardma/master/public/kardma_img.png",
     "description": "Grupal project"
   }
 ]
