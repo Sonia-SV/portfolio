@@ -1,17 +1,26 @@
 import React from 'react';
+import '../stylesheets/layout/contactIcons.scss';
 
-const Contact = () => {
+const Contact = (props) => {
+  console.log(props);
+  const renderContact = (icon, tittle, href) => {
+    return (
+      <li className="contact__li">
+        <a className="contact__li__a" href={href} title={tittle} target="_blank" rel="noopener noreferrer">
+          <i className={icon}></i>
+        </a>
+      </li>
+    );
+  };
   return (
-    <div>
-      <p className="landing">
-        <span className="landing__small">Hi there!</span>
-        <span>
-          My name is <span className="landing__name">Sonia Sanz Vivas</span> and
-        </span>
-        <span> I'm a rookie Front End Developer.</span>
-        <span className="landing__small">Check out my work!</span>
-      </p>
-    </div>
+    <section className="main__section">
+      <p className="main__section__p">{props.languajeSpanish ? 'Contacta conmigo:' : 'Reach out to me:'}</p>
+      <ul className="contact">
+        {renderContact('fas fa-envelope', 'Send email', 'mailto:sonia.sanzvivas@gmail.com')}
+        {renderContact('fab fa-linkedin-in', 'Go to Linkedin', 'https://www.linkedin.com/in/soniasanzvivas')}
+        {renderContact('fab fa-github-alt', 'Go to GitHub', 'https://github.com/Sonia-SV')}
+      </ul>
+    </section>
   );
 };
 

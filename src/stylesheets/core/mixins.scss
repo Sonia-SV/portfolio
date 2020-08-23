@@ -11,6 +11,8 @@
 @mixin link {
   &:active,
   &:hover {
+    transform: scale(1.15);
     color: $main-color;
+    transition: color 1s, transform 1s;
   }
 }

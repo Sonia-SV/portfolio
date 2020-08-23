@@ -11,7 +11,7 @@ const Landing = (props) => {
           Me llamo <span className="landing__name">Sonia Sanz Vivas</span> y soy
         </span>
         <span>
-          desarrolladora Front End <em>rookie</em>.
+          desarrolladora Front-end <em>rookie</em>.
         </span>
         <span className="landing__small">
           Aquí puedes ver mi{' '}
@@ -32,7 +32,7 @@ const Landing = (props) => {
         </span>
         <span>
           {' '}
-          I'm a <em>rookie</em> Front End Developer.
+          I'm a <em>rookie</em> Front-end developer.
         </span>
         <span className="landing__small">
           Check out my{' '}

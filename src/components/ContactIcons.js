@@ -13,7 +13,7 @@ const ContactIcons = () => {
   };
   return (
     <ul className="contactIcons">
-      {renderIcons('fas fa-envelope', 'Send email', 'sonia.sanzvivas@gmail.com')}
+      {renderIcons('fas fa-envelope', 'Send email', 'mailto:sonia.sanzvivas@gmail.com')}
       {renderIcons('fab fa-linkedin-in', 'Go to Linkedin', 'https://www.linkedin.com/in/soniasanzvivas')}
       {renderIcons('fab fa-github-alt', 'Go to GitHub', 'https://github.com/Sonia-SV')}
     </ul>
