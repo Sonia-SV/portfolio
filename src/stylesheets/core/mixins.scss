@@ -16,3 +16,26 @@
     transition: color 1s, transform 1s;
   }
 }
+
+@mixin checkboxStyle($textSize, $dividerSize, $padding) {
+  &__item {
+    display: none;
+  }
+
+  &__item + label {
+    display: inline-block;
+    cursor: pointer;
+    color: $medium-light-color;
+    font-size: $textSize;
+    &:not(:last-child):after {
+      padding: $padding;
+      font-size: $dividerSize;
+      content: '|';
+      color: $light-color;
+    }
+  }
+
+  &__item:checked + label {
+    color: $main-color;
+  }
+}

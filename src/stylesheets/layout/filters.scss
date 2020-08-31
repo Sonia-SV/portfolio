@@ -1,0 +1,11 @@
+@import '../core/reset.scss';
+@import '../core/variables.scss';
+@import '../core/mixins.scss';
+
+.filter {
+  padding: 20px 0 60px 0;
+  @include checkboxStyle(20px, 10px, 12px);
+  display: flex;
+  justify-content: center;
+  // border: 1px solid red;
+}

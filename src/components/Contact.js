@@ -2,7 +2,6 @@ import React from 'react';
 import '../stylesheets/layout/contactIcons.scss';
 
 const Contact = (props) => {
-  console.log(props);
   const renderContact = (icon, tittle, href) => {
     return (
       <li className="contact__li">

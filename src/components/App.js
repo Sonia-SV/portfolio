@@ -12,6 +12,7 @@ import '../stylesheets/App.scss';
 const App = () => {
   const [languajeSpanish, setLanguajeSpanish] = useState('true');
   const [projects, setProjects] = useState([]);
+  const [filterProjectTech, setfilterProjectTech] = useState('all');
   useEffect(() => {
     setProjects(projectsList);
   });
@@ -29,6 +30,18 @@ const App = () => {
   const handleSetLanguaje = (lang) => {
     setLanguajeSpanish(lang === 'en' ? false : true);
   };
+
+  const handleSetFilterProjects = (data) => {
+    setfilterProjectTech(data.value);
+  };
+
+  const renderFilterProjects = () => {
+    return projects
+      .sort((a, b) => (a.priority < b.priority ? 1 : -1))
+      .filter((project) => {
+        return filterProjectTech === 'all' ? true : project.tech === filterProjectTech;
+      });
+  };
   return (
     <React.Fragment>
       <Header languajeSpanish={languajeSpanish} handleSetLanguaje={handleSetLanguaje} />
@@ -41,7 +54,12 @@ const App = () => {
             <About languajeSpanish={languajeSpanish} />
           </Route>
           <Route path="/portfolio">
-            <PortfolioList projects={projects} languajeSpanish={languajeSpanish} />
+            <PortfolioList
+              projects={renderFilterProjects()}
+              handleSetFilterProjects={handleSetFilterProjects}
+              filterProjectTech={filterProjectTech}
+              languajeSpanish={languajeSpanish}
+            />
           </Route>
           <Route path="/contact">
             <Contact languajeSpanish={languajeSpanish} />

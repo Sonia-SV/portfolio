@@ -2,6 +2,7 @@
 @import '../core/variables.scss';
 @import '../core/mixins.scss';
 .header {
+  z-index: 1;
   position: fixed;
   width: 100%;
   display: flex;
@@ -37,26 +38,7 @@
 
     &__lang {
       padding-left: 30px;
-      &__item {
-        display: none;
-      }
-
-      &__item + label {
-        display: inline-block;
-        cursor: pointer;
-        color: $medium-light-color;
-        font-size: 13px;
-        &:not(:last-child):after {
-          padding: 4px;
-          font-size: 8px;
-          content: '|';
-          color: $light-color;
-        }
-      }
-
-      &__item:checked + label {
-        color: $main-color;
-      }
+      @include checkboxStyle(13px, 8px, 4px);
     }
   }
 }
