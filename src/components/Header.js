@@ -33,7 +33,7 @@ const Header = (props) => {
       <nav className="header__nav">
         <ul className="header__nav__menu">
           {renderActualRoute('/about', props.languajeSpanish ? 'Sobre mí' : 'About')}
-          {renderActualRoute('/portfolio', props.languajeSpanish ? 'Proyectos' : 'Projects')}
+          {renderActualRoute('/projects', props.languajeSpanish ? 'Proyectos' : 'Projects')}
           {renderActualRoute('/contact', props.languajeSpanish ? 'Contacto' : 'Contact')}
         </ul>
         <form className="header__nav__lang">

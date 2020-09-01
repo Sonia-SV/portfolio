@@ -15,7 +15,7 @@ const App = () => {
   const [filterProjectTech, setfilterProjectTech] = useState('all');
   useEffect(() => {
     setProjects(projectsList);
-  });
+  }, []);
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem('languaje'));
@@ -38,33 +38,35 @@ const App = () => {
   const renderFilterProjects = () => {
     return projects
       .sort((a, b) => (a.priority < b.priority ? 1 : -1))
-      .filter((project) => {
-        return filterProjectTech === 'all' ? true : project.tech === filterProjectTech;
-      });
+      .sort((a, b) => (a.id < b.id ? 1 : -1))
+      .filter((project) => (project.visible ? true : false))
+      .filter((project) => (filterProjectTech === 'all' ? true : project.tech === filterProjectTech));
   };
   return (
     <React.Fragment>
       <Header languajeSpanish={languajeSpanish} handleSetLanguaje={handleSetLanguaje} />
       <main className="main">
-        <Switch>
-          <Route exact path="/">
-            <Landing languajeSpanish={languajeSpanish} />
-          </Route>
-          <Route path="/about">
-            <About languajeSpanish={languajeSpanish} />
-          </Route>
-          <Route path="/portfolio">
-            <PortfolioList
-              projects={renderFilterProjects()}
-              handleSetFilterProjects={handleSetFilterProjects}
-              filterProjectTech={filterProjectTech}
-              languajeSpanish={languajeSpanish}
-            />
-          </Route>
-          <Route path="/contact">
-            <Contact languajeSpanish={languajeSpanish} />
-          </Route>
-        </Switch>
+        <div className="wrapper">
+          <Switch>
+            <Route exact path="/">
+              <Landing languajeSpanish={languajeSpanish} />
+            </Route>
+            <Route path="/about">
+              <About languajeSpanish={languajeSpanish} />
+            </Route>
+            <Route path="/projects">
+              <PortfolioList
+                projects={renderFilterProjects()}
+                handleSetFilterProjects={handleSetFilterProjects}
+                filterProjectTech={filterProjectTech}
+                languajeSpanish={languajeSpanish}
+              />
+            </Route>
+            <Route path="/contact">
+              <Contact languajeSpanish={languajeSpanish} />
+            </Route>
+          </Switch>
+        </div>
       </main>
       <ContactIcons />
     </React.Fragment>

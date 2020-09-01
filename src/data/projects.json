@@ -11,7 +11,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Landing-page",
     "webUrl": "https://sonia-sv.github.io/Landing-page",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Landing-page/master/src/images/landing_profile.png",
-    "descriptionEs": "Individual project",
+    "descriptionEs": "Landing page muy sencilla para practicar maquetación",
     "descriptionEn": "Individual project"
   },
   {
@@ -26,7 +26,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Anonymous-proxy",
     "webUrl": "https://sonia-sv.github.io/Anonymous-proxy",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Anonymous-proxy/master/src/images/anonymous_profile.png",
-    "descriptionEs": "Individual project",
+    "descriptionEs": "Landing page maquetada con Sass, con transiciones y animaciones",
     "descriptionEn": "Individual project"
   },
   {
@@ -41,7 +41,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Power-frontend",
     "webUrl": "https://sonia-sv.github.io/Power-frontend",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Power-frontend/master/src/images/powerfrontend_profile.png",
-    "descriptionEs": "Grupal project",
+    "descriptionEs": "Proyecto grupal que consta de una página de presentación y un formulario de contacto",
     "descriptionEn": "Grupal project"
   },
   {
@@ -50,13 +50,13 @@
     "name": "Guess the number",
     "type": "practice",
     "tech": "vanillaJs",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "languajes": ["HTML", "CSS", "JavaScript"],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Guess-the-number",
     "webUrl": "https://sonia-sv.github.io/Guess-the-number",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Guess-the-number/master/img/number_profile.png",
-    "descriptionEs": "Individual project",
+    "descriptionEs": "Sencillo juego realizado en JavaScript en el que hay que adivinar un número aleatorio",
     "descriptionEn": "Individual project"
   },
   {
@@ -71,7 +71,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Abeds-favorite-shows",
     "webUrl": "https://sonia-sv.github.io/Abeds-favorite-shows",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Abeds-favorite-shows/master/src/images/Abeds_profile.png",
-    "descriptionEs": "Individual project",
+    "descriptionEs": "Web series que hace peticiones a la API de Tv Maze y permite realizar búsquedas y guardar favoritos",
     "descriptionEn": "Individual project"
   },
   {
@@ -86,7 +86,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Botanical-profile-cards",
     "webUrl": "https://sonia-sv.github.io/Botanical-profile-cards",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Botanical-profile-cards/master/src/images/Botanical_profile.png",
-    "descriptionEs": "Grupal project",
+    "descriptionEs": "Proyecto grupal de creación de una web de tarjetas de visita interactivas",
     "descriptionEn": "Grupal project"
   },
   {
@@ -101,8 +101,8 @@
     "repoUrl": "https://github.com/Sonia-SV/Pokemon-list",
     "webUrl": "https://sonia-sv.github.io/Pokemon-list",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Pokemon-list/master/public/pokemon_img.png",
-    "descriptionEs": "Individual project",
-    "descriptionEn": "Individual project"
+    "descriptionEs": "Sencillo proyecto en React que pinta una lista de Pokemon",
+    "descriptionEn": "Simple React project that paint's a Pokemon list"
   },
   {
     "id": 8,
@@ -116,7 +116,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Rick-Morty",
     "webUrl": "https://sonia-sv.github.io/Rick-Morty",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Rick-Morty/master/public/rickmorty_profile.png",
-    "descriptionEs": "Individual project",
+    "descriptionEs": "Web hecha en React y que, consultando la API de Rick and Morty, permite realizar búsquedas con distintos filtros",
     "descriptionEn": "Individual project"
   },
   {
@@ -131,7 +131,7 @@
     "repoUrl": "https://github.com/Sonia-SV/Kardma",
     "webUrl": "https://sonia-sv.github.io/Kardma",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Kardma/master/public/kardma_img.png",
-    "descriptionEs": "Grupal project",
-    "descriptionEn": "Grupal project"
+    "descriptionEs": "Proyecto grupal de refactorización de código heredado de JavaScript a React, añadiendo nuevas funcionalidades",
+    "descriptionEn": "Refactoring groupal project. "
   }
 ]

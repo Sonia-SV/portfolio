@@ -4,9 +4,14 @@
 
 .projects__container {
   min-height: 80vh;
+  width: 100%;
 }
 .projects {
+  max-height: calc(100vh - 132px);
+  margin-top: 132px;
+  overflow: scroll;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  justify-content: space-evenly;
+  gap: 10px;
 }

@@ -33,6 +33,10 @@
       content: '|';
       color: $light-color;
     }
+    &:hover,
+    &:active {
+      color: $light-color;
+    }
   }
 
   &__item:checked + label {
