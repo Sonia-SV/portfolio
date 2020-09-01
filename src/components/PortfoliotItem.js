@@ -15,7 +15,7 @@ const ProjectItem = (props) => {
         <p>{description}</p>
         <div>
           <a href={repoUrl} title={name} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github"></i>
+            <i className="fas fa-code"></i>
           </a>
           <a href={webUrl} title={name} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-desktop"></i>
