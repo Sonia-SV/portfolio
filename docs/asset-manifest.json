@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.5761e8af.chunk.css",
+    "main.css": "./static/css/main.0e9e8822.chunk.css",
     "main.js": "./static/js/main.28e3ef6c.chunk.js",
     "main.js.map": "./static/js/main.28e3ef6c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8bb1f59a.js",
@@ -8,16 +8,16 @@
     "static/js/2.5ab21879.chunk.js": "./static/js/2.5ab21879.chunk.js",
     "static/js/2.5ab21879.chunk.js.map": "./static/js/2.5ab21879.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7e98293d95dad930c9985d9711984b4e.js": "./precache-manifest.7e98293d95dad930c9985d9711984b4e.js",
+    "precache-manifest.36e0b93e07a4dafeeb1da562b50e8711.js": "./precache-manifest.36e0b93e07a4dafeeb1da562b50e8711.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.5761e8af.chunk.css.map": "./static/css/main.5761e8af.chunk.css.map",
+    "static/css/main.0e9e8822.chunk.css.map": "./static/css/main.0e9e8822.chunk.css.map",
     "static/js/2.5ab21879.chunk.js.LICENSE.txt": "./static/js/2.5ab21879.chunk.js.LICENSE.txt",
     "static/media/Curriculum_SoniaSanzVivas.pdf": "./static/media/Curriculum_SoniaSanzVivas.7addd156.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.8bb1f59a.js",
     "static/js/2.5ab21879.chunk.js",
-    "static/css/main.5761e8af.chunk.css",
+    "static/css/main.0e9e8822.chunk.css",
     "static/js/main.28e3ef6c.chunk.js"
   ]
 }
