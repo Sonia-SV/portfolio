@@ -36,7 +36,7 @@ const Landing = (props) => {
         </span>
         <span className="landing__small">
           Check out my{' '}
-          <Link className="landing__small__link" to={'/portfolio'}>
+          <Link className="landing__small__link" to={'/projects'}>
             work
           </Link>
           !
