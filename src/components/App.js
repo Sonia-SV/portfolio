@@ -37,8 +37,8 @@ const App = () => {
 
   const renderFilterProjects = () => {
     return projects
+      .sort((a, b) => (a.id > b.id ? 1 : -1))
       .sort((a, b) => (a.priority < b.priority ? 1 : -1))
-      .sort((a, b) => (a.id < b.id ? 1 : -1))
       .filter((project) => (project.visible ? true : false))
       .filter((project) => (filterProjectTech === 'all' ? true : project.tech === filterProjectTech));
   };
