@@ -13,5 +13,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
   justify-content: space-evenly;
+  justify-items: center;
   gap: 10px;
 }

@@ -13,7 +13,7 @@ const Contact = (props) => {
   };
   return (
     <section className="main__section">
-      <p className="main__section__p">{props.languajeSpanish ? 'Contacta conmigo:' : 'Reach out to me:'}</p>
+      <p className="main__section__p__contact">{props.languajeSpanish ? 'Contacta conmigo:' : 'Reach out to me:'}</p>
       <ul className="contact">
         {renderContact('fas fa-envelope', 'Send email', 'mailto:sonia.sanzvivas@gmail.com')}
         {renderContact('fab fa-linkedin-in', 'Go to Linkedin', 'https://www.linkedin.com/in/soniasanzvivas')}

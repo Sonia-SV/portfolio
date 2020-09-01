@@ -3,8 +3,8 @@
 @import '../core/mixins.scss';
 
 .projects__item {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -12,7 +12,7 @@
   &__visible {
     &__img {
       filter: grayscale(100%);
-      width: 250px;
+      width: 100%;
     }
   }
   &__hidden {
@@ -31,11 +31,11 @@
     text-align: center;
     transform: translateY(100%);
     h4 {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 400;
     }
     p {
-      font-size: 18px;
+      font-size: 14px;
     }
     div {
       width: 100%;
@@ -44,21 +44,40 @@
       align-items: center;
 
       a {
-        font-size: 25px;
-        width: 25px;
-        height: 25px;
+        font-size: 22px;
         &:hover {
           transform: scale(1.1);
         }
       }
     }
     small {
-      font-size: 14px;
+      font-size: 11px;
     }
   }
   &:hover &__hidden,
   &:active &__hidden {
     transform: translateY(0%);
     transition: all 0.5s;
+  }
+
+  @include tablet {
+    width: 250px;
+    height: 250px;
+    &__hidden {
+      h4 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 18px;
+      }
+      small {
+        font-size: 14px;
+      }
+      div {
+        a {
+          font-size: 25px;
+        }
+      }
+    }
   }
 }

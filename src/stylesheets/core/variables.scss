@@ -10,3 +10,14 @@ $medium-light-color: rgb(153, 153, 153);
 $medium-dark-color: #4e4e4e;
 $medium-dark-color-low: #4e4e4e50;
 $dark-color: rgb(30, 30, 30);
+
+//BREAKPOINTS
+$tablet: 768px;
+
+// MEDIA QUERIES
+
+@mixin tablet {
+  @media all and (min-width: $tablet) {
+    @content;
+  }
+}

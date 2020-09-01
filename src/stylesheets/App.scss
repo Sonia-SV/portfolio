@@ -22,17 +22,21 @@ body {
     justify-content: center;
     align-items: center;
     color: $light-color;
-    font-size: 40px;
     &__section {
       text-align: justify;
-      font-size: 18px;
       font-weight: lighter;
-      line-height: 30px;
+      font-size: 12px;
+      line-height: 20px;
       display: flex;
       flex-direction: column;
+      margin: 30px;
 
       &__p {
         padding-bottom: 20px;
+        &__contact {
+          font-size: 18px;
+          padding-bottom: 20px;
+        }
       }
       &__a {
         margin-top: 10px;
@@ -43,6 +47,10 @@ body {
           font-size: 20px;
           margin-left: 10px;
         }
+      }
+      @include tablet {
+        font-size: 18px;
+        line-height: 30px;
       }
     }
   }

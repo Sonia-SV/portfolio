@@ -10,7 +10,7 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  margin: 0 0 15px 15px;
+  margin: 0 0 5px 5px;
   border-left: $main-color-low solid 0.5px;
   &__li {
     @include link;
@@ -22,6 +22,9 @@
       font-size: 15px;
       padding: 3px;
     }
+  }
+  @include tablet {
+    margin: 0 0 15px 15px;
   }
 }
 

@@ -4,7 +4,7 @@
 .landing {
   display: flex;
   flex-direction: column;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: lighter;
   color: $light-color;
   &__name {
@@ -15,7 +15,7 @@
     text-align: justify;
   }
   &__small {
-    font-size: 20px;
+    font-size: 12px;
     &__link {
       border-bottom: $main-color-low solid 0.5px;
       @include link;
@@ -27,6 +27,12 @@
     &:last-child {
       align-self: flex-end;
       padding-top: 10px;
+    }
+  }
+  @include tablet {
+    font-size: 30px;
+    &__small {
+      font-size: 20px;
     }
   }
 }
