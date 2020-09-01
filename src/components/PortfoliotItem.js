@@ -14,10 +14,10 @@ const ProjectItem = (props) => {
         <h4>{name}</h4>
         <p>{description}</p>
         <div>
-          <a href={repoUrl} title={name} target="_blank" rel="noopener noreferrer">
+          <a href={repoUrl} title={`${name} Code`} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-code"></i>
           </a>
-          <a href={webUrl} title={name} target="_blank" rel="noopener noreferrer">
+          <a href={webUrl} title={`${name} Web`} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-desktop"></i>
           </a>
         </div>
