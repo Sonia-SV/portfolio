@@ -6,7 +6,7 @@ const About = (props) => {
     <section className="main__section">
       <p className="main__section__p">
         Aunque mi vida profesional anterior había ido por otros caminos, siempre me había gustado mucho el mundo de la programación. Para llegar a ser
-        desarrolladora <em>rookie</em>, me formé como en el bootcamp de <em>Adalab</em>. Ahora sigo aprendiendo gracias a Free Code Camp, a Udemy y al
+        desarrolladora <em>rookie</em>, me formé en el bootcamp de <em>Adalab</em>. Ahora sigo aprendiendo gracias a Free Code Camp, a Udemy y al
         todo-poderoso Stack Overflow.
       </p>
 
