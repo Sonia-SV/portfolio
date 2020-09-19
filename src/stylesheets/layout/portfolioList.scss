@@ -5,14 +5,26 @@
 .projects__container {
   min-height: 80vh;
   width: 100%;
+  ::-webkit-scrollbar {
+    &-track {
+      background-color: transparent;
+    }
+    &-thumb {
+      background-color: $dark-color;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+  }
 }
 .projects {
   max-height: calc(100vh - 132px);
+  padding: 50px;
   margin-top: 132px;
   overflow: scroll;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 250px));
   justify-content: space-evenly;
   justify-items: center;
-  gap: 10px;
+  gap: 30px 10px;
 }
