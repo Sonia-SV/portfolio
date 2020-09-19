@@ -133,5 +133,35 @@
     "img": "https://raw.githubusercontent.com/Sonia-SV/Kardma/master/public/kardma_img.png",
     "descriptionEs": "Proyecto grupal de refactorización de código heredado de JavaScript a React, añadiendo nuevas funcionalidades",
     "descriptionEn": "Refactoring groupal project. "
+  },
+  {
+    "id": 10,
+    "priority": 3,
+    "name": "Portfolio",
+    "type": "personal project",
+    "tech": "reactJs",
+    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "grupal": false,
+    "visible": false,
+    "repoUrl": "https://github.com/Sonia-SV/portfolio",
+    "webUrl": "https://sonia-sv.github.io/portfolio/",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Kardma/master/public/kardma_img.png",
+    "descriptionEs": "Proyecto personal. Portfolio que recoge mis proyectos, filtrable según las tecnologías con las que se ha desarrollado.",
+    "descriptionEn": "Personal project."
+  },
+  {
+    "id": 11,
+    "priority": 3,
+    "name": "Crud Notes",
+    "type": "personal project",
+    "tech": "reactJs",
+    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "grupal": true,
+    "visible": true,
+    "repoUrl": "https://github.com/Sonia-SV/Kardma",
+    "webUrl": "https://sonia-sv.github.io/Kardma",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/Kardma/master/public/kardma_img.png",
+    "descriptionEs": "Proyecto grupal de refactorización de código heredado de JavaScript a React, añadiendo nuevas funcionalidades",
+    "descriptionEn": "Refactoring groupal project. "
   }
 ]
