@@ -20,7 +20,7 @@ const Filters = (props) => {
           checked={props.filterProjectTech === 'all' ? true : false}
         />
         <label htmlFor="all">{props.languajeSpanish ? 'Todos' : 'All'}</label>
-        <input
+        {/* <input
           className="filter__item"
           type="radio"
           id="css"
@@ -29,7 +29,7 @@ const Filters = (props) => {
           onChange={handleTech}
           checked={props.filterProjectTech === 'css' ? true : false}
         />
-        <label htmlFor="css">Css/Sass</label>
+        <label htmlFor="css">Css/Sass</label> */}
         <input
           className="filter__item"
           type="radio"

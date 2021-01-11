@@ -49,7 +49,7 @@
       "SASS"
     ],
     "grupal": true,
-    "visible": true,
+    "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Power-frontend",
     "webUrl": "https://sonia-sv.github.io/Power-frontend",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Power-frontend/master/src/images/powerfrontend_profile.png",
@@ -212,7 +212,7 @@
     "repoUrl": "https://github.com/Sonia-SV/crud-notes",
     "webUrl": "https://sonia-sv.github.io/crud-notes/",
     "img": "https://raw.githubusercontent.com/Sonia-SV/crud-notes/master/public/crud-notes_profile.png",
-    "descriptionEs": "Proyecto personal. Aplicación web para crear, leer, actualizar y eliminar Post-its.",
+    "descriptionEs": "Proyecto personal. Aplicación web para crear, leer, actualizar y eliminar Post-its",
     "descriptionEn": "Personal project. Web App to Create, read, update and delete sticky notes"
   },
   {
@@ -232,7 +232,26 @@
     "repoUrl": "https://github.com/Sonia-SV/MichaelScott_quotes",
     "webUrl": "https://sonia-sv.github.io/MichaelScott_quotes/",
     "img": "https://raw.githubusercontent.com/Sonia-SV/MichaelScott_quotes/master/src/img/MichaelScott_profile.png",
-    "descriptionEs": "Proyecto personal. Generador de frases aleatorias de Michael Scott.",
+    "descriptionEs": "Proyecto personal. Generador de frases aleatorias de Michael Scott",
     "descriptionEn": "Personal project. Michael Scott random quote generator"
+  },
+  {
+    "id": 13,
+    "priority": 2,
+    "name": "Calculadora Salario Actores",
+    "type": "personal project",
+    "tech": "vanillaJs",
+    "languajes": [
+      "HTML",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/Sonia-SV/calculadora-sueldo-actores",
+    "webUrl": "https://sonia-sv.github.io/MichaelScott_quotes/",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/calculadora-sueldo-actores/master/images/calculator_profile.png",
+    "descriptionEs": "Proyecto personal. Calculadora salarial para actores basada en el Convenio Colectivo",
+    "descriptionEn": "Personal project. Salary calculator for actors based on the collective agreement of the Unión de Actores from Spain"
   }
 ]
