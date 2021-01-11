@@ -19,7 +19,8 @@ const App = () => {
 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem('languaje'));
-    if (data) {
+    console.log(data);
+    if (data !== null) {
       setLanguajeSpanish(data);
     }
   }, []);
