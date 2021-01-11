@@ -13,11 +13,17 @@ $dark-color: rgb(30, 30, 30);
 
 //BREAKPOINTS
 $tablet: 768px;
+$desktop: 870px;
 
 // MEDIA QUERIES
-
 @mixin tablet {
-  @media all and (min-width: $tablet) {
-    @content;
-  }
+	@media all and (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media all and (min-width: $desktop) {
+		@content;
+	}
 }
