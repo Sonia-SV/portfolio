@@ -5,7 +5,11 @@
     "name": "Landing page",
     "type": "practice",
     "tech": "css",
-    "languajes": ["HTML", "CSS", "SASS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
     "grupal": false,
     "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Landing-page",
@@ -20,9 +24,13 @@
     "name": "Anonimous Proxy",
     "type": "practice",
     "tech": "css",
-    "languajes": ["HTML", "CSS", "SASS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
     "grupal": false,
-    "visible": true,
+    "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/Anonymous-proxy",
     "webUrl": "https://sonia-sv.github.io/Anonymous-proxy",
     "img": "https://raw.githubusercontent.com/Sonia-SV/Anonymous-proxy/master/src/images/anonymous_profile.png",
@@ -35,7 +43,11 @@
     "name": "Power FrontEnd",
     "type": "practice",
     "tech": "css",
-    "languajes": ["HTML", "CSS", "SASS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Power-frontend",
@@ -50,7 +62,11 @@
     "name": "Guess the number",
     "type": "practice",
     "tech": "vanillaJs",
-    "languajes": ["HTML", "CSS", "JavaScript"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Guess-the-number",
@@ -65,7 +81,12 @@
     "name": "Abed's favorite shows",
     "type": "practice",
     "tech": "vanillaJs",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript"
+    ],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Abeds-favorite-shows",
@@ -80,7 +101,12 @@
     "name": "Botanical profile Cards",
     "type": "practice",
     "tech": "vanillaJs",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript"
+    ],
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Botanical-profile-cards",
@@ -95,7 +121,12 @@
     "name": "Pokemon List",
     "type": "practice",
     "tech": "reactJs",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Pokemon-list",
@@ -110,7 +141,12 @@
     "name": "Rick & Morty",
     "type": "practice",
     "tech": "reactJs",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Rick-Morty",
@@ -125,7 +161,12 @@
     "name": "Kardma Cards",
     "type": "practice",
     "tech": "reactJs",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
     "grupal": true,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/Kardma",
@@ -140,7 +181,12 @@
     "name": "Portfolio",
     "type": "personal project",
     "tech": "reactJs",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
     "grupal": false,
     "visible": false,
     "repoUrl": "https://github.com/Sonia-SV/portfolio",
@@ -155,7 +201,12 @@
     "name": "Crud Notes",
     "type": "personal project",
     "tech": "reactJs",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
     "grupal": false,
     "visible": true,
     "repoUrl": "https://github.com/Sonia-SV/crud-notes",
@@ -163,5 +214,25 @@
     "img": "https://raw.githubusercontent.com/Sonia-SV/crud-notes/master/public/crud-notes_profile.png",
     "descriptionEs": "Proyecto personal. Aplicación web para crear, leer, actualizar y eliminar Post-its.",
     "descriptionEn": "Personal project. Web App to Create, read, update and delete sticky notes"
+  },
+  {
+    "id": 12,
+    "priority": 2,
+    "name": "Michael Scott quotes",
+    "type": "personal project",
+    "tech": "reactJs",
+    "languajes": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "React.JS"
+    ],
+    "grupal": false,
+    "visible": true,
+    "repoUrl": "https://github.com/Sonia-SV/MichaelScott_quotes",
+    "webUrl": "https://sonia-sv.github.io/MichaelScott_quotes/",
+    "img": "https://raw.githubusercontent.com/Sonia-SV/MichaelScott_quotes/master/src/img/MichaelScott_profile.png",
+    "descriptionEs": "Proyecto personal. Generador de frases aleatorias de Michael Scott.",
+    "descriptionEn": "Personal project. Michael Scott random quote generator"
   }
 ]
